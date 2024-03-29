@@ -1,0 +1,27 @@
+{
+  "name": "@elyukai/classlist-utils",
+  "version": "0.1.0",
+  "description": "Utility types and functions for working with HTML/CSS classes",
+  "main": "./lib/main.js",
+  "exports": {
+    ".": "./lib/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Obermann",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.4.3"
+  },
+  "repository": "github:elyukai/classlist-utils",
+  "bugs": {
+    "url": "https://github.com/elyukai/classlist-utils/issues"
+  },
+  "type": "module"
+}
